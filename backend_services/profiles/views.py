@@ -79,7 +79,6 @@ class ProfileList(ListAPIView):
     ]
     
 
-
 class ProfileRetrieveUpdateDestroyAPI(RetrieveUpdateDestroyAPIView):
     queryset = Profile.objects.all()
     serializer_class = ProfileBasicSerializer
