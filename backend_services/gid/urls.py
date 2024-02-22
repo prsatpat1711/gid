@@ -55,6 +55,13 @@ schema_view = get_schema_view(
 urlpatterns = [
     path(FUNCTION_APP_PATH + '/admin/', admin.site.urls),
     path(FUNCTION_APP_PATH + '/profiles/', include('profiles.urls')),
+    path(FUNCTION_APP_PATH + '/products/', include('products.urls')),
+    path(FUNCTION_APP_PATH + '/payments/', include('payments.urls')),
+    path(FUNCTION_APP_PATH + '/orders/', include('orders.urls')),
+    path(FUNCTION_APP_PATH + '/categories/', include('categories.urls')),
+    path(FUNCTION_APP_PATH + '/carts/', include('carts.urls')),
+    path(FUNCTION_APP_PATH + '/bills/', include('bills.urls')),
+    path(FUNCTION_APP_PATH + '/addresses/', include('addresses.urls')),
 
     path(FUNCTION_APP_PATH + '/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path(FUNCTION_APP_PATH + '/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),

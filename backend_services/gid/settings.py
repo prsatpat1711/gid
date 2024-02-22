@@ -73,7 +73,14 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework_simplejwt',
     
-    'profiles'
+    'profiles',
+    "products",
+    "payments",
+    "orders",
+    "categories",
+    "carts",
+    "bills",
+    "addresses",
     
 ]
 
