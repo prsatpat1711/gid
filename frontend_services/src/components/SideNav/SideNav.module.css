@@ -1,0 +1,16 @@
+.SideNavDiv{
+    background-color: rgb(64, 9, 116);
+    height: 90vh;
+    width: 15vw;
+    border-top: 1px solid rgb(64, 9, 150);
+}
+
+.SideNavButton{
+    background-color: inherit;
+    border-radius: 5px;
+    border: 0px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}

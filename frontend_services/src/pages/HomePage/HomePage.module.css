@@ -1,0 +1,10 @@
+.HomePageDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Three columns */
+    gap: 10px;
+    overflow-y: scroll;
+    height: 90vh;
+    overflow-x:auto;
+    width: 85vw;
+}
